@@ -38,7 +38,7 @@ const Footer = () => {
       {/* For a copyright */}
       <div>
         <p className="py-5 text-2m text-center">
-          Copyright © 2024 nepDoc - All Right Reserved. <br /> <hr />
+          Copyright © 2024 nepDoc - All Right Reserved. <br />
           Designed by Abishek Neupane - abishekn.com.np
         </p>
       </div>

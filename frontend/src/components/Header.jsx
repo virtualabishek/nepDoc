@@ -18,7 +18,7 @@ const Header = () => {
             src={assets.group_profiles}
             alt="Profiles"
           />
-          <p className="font-semibold">
+          <p>
             Simply browse through our extensive list of trusted doctors,
             <br className="hidden sm:block" /> schedule your appointment
             hassle-free.
