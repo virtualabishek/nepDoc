@@ -140,6 +140,8 @@ const Appointment = () => {
                   <p>{item[0] && daysOfWeek[item[0].datetime.getday()]}</p>
                   <p>{item[0] && items[0].datetime.getDate()}</p>
                 </div>;
+
+                // error
               })}
           </div>
         </div>
