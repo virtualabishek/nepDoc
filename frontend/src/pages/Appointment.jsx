@@ -29,7 +29,7 @@ const Appointment = () => {
       currentDate.setDate(today.getDate() + i);
 
       // Setting end time of the date with index
-      let endTime = new Date(currentDate); // Should be same day, not today
+      let endTime = new Date(); // Should be same day, not today
       endTime.setDate(today.getDate() + i);
       endTime.setHours(21, 0, 0, 0); // End at 9 PM
 
@@ -133,17 +133,31 @@ const Appointment = () => {
         {/* Booking slots */}
         <div className="sm:ml-72 sm:pl-4 mt-4 font-medium text-gray-700">
           <p>Booking Slots</p>
-          <div>
+          <div className="flex gap-3 items-center w-full overflow-x-scroll mt-4">
             {docSlots.length &&
-              docSlots.map((map, index) => {
-                <div key={index}>
-                  <p>{item[0] && daysOfWeek[item[0].datetime.getday()]}</p>
-                  <p>{item[0] && items[0].datetime.getDate()}</p>
-                </div>;
+              [...Array(7)].map((_, index) => {
+                const currentDate = new Date();
+                currentDate.setDate(currentDate.getDate() + index); // Get today + index days
 
-                // error
+                return (
+                  <div
+                    key={index}
+                    className={`text-center py-6 min-w-16 rounded-full cursor-pointer ${
+                      slotIndex === index
+                        ? "bg-primary text-white"
+                        : "border border-gray-200"
+                    }`}
+                    onClick={() => setSlotIndex(index)} // Update slotIndex when clicked
+                  >
+                    <p>{daysOfWeek[currentDate.getDay()]}</p>{" "}
+                    {/* Day of the week */}
+                    <p>{currentDate.getDate()}</p> {/* Date */}
+                  </div>
+                );
               })}
           </div>
+          {/* for a time */}
+          <div>{docSlots.length && doc}</div>
         </div>
       </div>
     )
