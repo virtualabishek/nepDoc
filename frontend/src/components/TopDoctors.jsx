@@ -16,7 +16,10 @@ const TopDoctors = () => {
       <div className="w-full grid lg:grid-cols-5 grid-cols-auto gap-4 pt-5 gap-y-6 px-3 sm:px-0">
         {doctors.slice(0, 10).map((item, index) => (
           <div
-            onClick={() => navigate(`/appointment/${item._id}`)}
+            onClick={() => {
+              navigate("/doctors");
+              window.scrollTo(0, 0); // Ensure scrollTo is correctly used
+            }}
             className="border border-blue-200 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-500"
             key={index}
           >
