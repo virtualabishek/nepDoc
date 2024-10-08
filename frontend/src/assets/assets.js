@@ -87,34 +87,35 @@ export const specialityData = [
 export const doctors = [
   {
     _id: "doc1",
-    name: "Dr. Alok Dhungel",
+    name: "Dr. Samrat Shrestha",
     image: doc1,
-    speciality: "General physician",
+    speciality: "General Physician",
     degree: "MBBS, MD",
-    experience: "11 Years",
+    experience: "7 Years",
     about:
-      "Dr. Dhungel is a experienced Consultant with a demonstrated history of working in the hospital & health care industry. Skilled in Healthcare Information Technology (HIT), Clinical Research, Hospitals, Medicine, and Healthcare. Strong healthcare services professional graduated from University Of Dhaka. ",
-    fees: 700,
+      "Dr. Samrat Shrestha specializes in general medicine with a focus on chronic disease management and preventive care. He is committed to providing high-quality healthcare services.",
+    fees: 1100,
     address: {
-      line1: "44600, Kathmandu",
-      line2: "Thapathali, Kathmandu, Nepal",
+      line1: "Venus Hospital",
+      line2: "Balkhu, Kathmandu, Nepal",
     },
   },
   {
     _id: "doc2",
-    name: "Dr. Emily Larson",
+    name: "Dr. Reena Shrestha",
     image: doc2,
     speciality: "Gynecologist",
-    degree: "MBBS",
-    experience: "3 Years",
+    degree: "MBBS, MD",
+    experience: "10 Years",
     about:
-      "Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
-    fees: 60,
+      "Dr. Reena Shrestha is a highly experienced gynecologist specializing in women's reproductive health. She is dedicated to providing comprehensive care and effective treatment strategies.",
+    fees: 1200,
     address: {
-      line1: "27th Cross, Richmond",
-      line2: "Circle, Ring Road, London",
+      line1: "Clinic One",
+      line2: "Kathmandu, Nepal",
     },
   },
+
   {
     _id: "doc3",
     name: "Dr. Sarah Patel",
@@ -267,17 +268,17 @@ export const doctors = [
   },
   {
     _id: "doc13",
-    name: "Dr. Sunila Shakya",
+    name: "Dr. Pukar Thapa",
     image: doc13,
-    speciality: "General physician",
+    speciality: "General Physician",
     degree: "MBBS, MD",
-    experience: "8 Years",
+    experience: "10 Years",
     about:
-      "Dr. Sunila Shakya is a dedicated medical professional specializing in obstetrics and gynecology, currently practicing at Norvic Hospital. She completed her MBBS from Nepal Medical College in 2005 and later earned her MD from NAMS, Bir Hospital in 2016. With extensive training in advanced medical practices, Dr. Shakya is committed to providing high-quality healthcare to women and children in Nepal.",
-    fees: 50,
+      "Dr. Pukar Thapa specializes in internal medicine with a focus on chronic disease management. He is committed to providing high-quality care to his patients.",
+    fees: 950,
     address: {
-      line1: "17th Cross, Richmond",
-      line2: "Circle, Ring Road, London",
+      line1: "Chitwan Model Hospital",
+      line2: "Dursanchar Road, Bharatpur-10, Chitwan, Nepal",
     },
   },
   {
