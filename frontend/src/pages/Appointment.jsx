@@ -22,9 +22,9 @@ const Appointment = () => {
 
   // Get available time slots for the doctor for the next 7 days
   const getAvailableSlots = async () => {
-    setDocSlots([]); // Clear slots before setting new ones
+    setDocSlots([]);
     let today = new Date();
-    let newSlots = []; // Create a new array to store slots for each day
+    let newSlots = []; // Create a new array to store slots
 
     for (let i = 0; i < 7; i++) {
       let currentDate = new Date(today);
