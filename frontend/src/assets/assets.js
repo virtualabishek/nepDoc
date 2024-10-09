@@ -207,9 +207,9 @@ export const doctors = [
     },
   },
   {
-    _id: "doc5",
+    _id: "doc9",
     name: "Dr. Mohan Bhusal",
-    image: doc5,
+    image: doc9,
     speciality: "Dermatologist",
     degree: "MBBS, MD",
     experience: "7 Years",
