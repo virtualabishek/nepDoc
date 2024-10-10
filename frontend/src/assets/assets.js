@@ -89,7 +89,7 @@ export const doctors = [
     _id: "doc1",
     name: "Dr. Samrat Shrestha",
     image: doc1,
-    speciality: "General Physician",
+    speciality: "General physician",
     degree: "MBBS, MD",
     experience: "7 Years",
     about:
@@ -271,7 +271,7 @@ export const doctors = [
     _id: "doc13",
     name: "Dr. Pukar Thapa",
     image: doc13,
-    speciality: "General Physician",
+    speciality: "General physician",
     degree: "MBBS, MD",
     experience: "10 Years",
     about:
